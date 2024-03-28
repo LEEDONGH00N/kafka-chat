@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url : jdbc:mysql://127.0.0.1:3306/chatting
     username: chat_db
-    password: Dlehdgns0126!
+    password:
   jpa:
     hibernate:
       ddl-auto: update
@@ -15,7 +15,7 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/chat
       username: lee            # MongoDB 사용자 이름
-      password: Dlehdgns0126!       # MongoDB 사용자 비밀번호
+      password:       # MongoDB 사용자 비밀번호
 
 #  kafka:
 #    bootstrap-servers: my-kafka:9092
